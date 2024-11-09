@@ -4,10 +4,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const imageContainer = document.getElementById('imageContainer');
 
     // Azure 配置
-    const visionEndpoint = "https://fiykhnui.cognitiveservices.azure.com/";
-    const visionKey = config.visionKey;  // 使用配置文件中的密钥
-    const translatorEndpoint = "https://api.cognitive.microsofttranslator.com/";
-    const translatorKey = config.translatorKey;  // 使用配置文件中的密钥
+// Azure 配置
+const visionEndpoint = "https://fiykhnui.cognitiveservices.azure.com/";
+const visionKey = "7H596yR1ly2inrXOADMcQMYqEDst4Peuyc96jgEtkiPmXVrvFhOcJQQJ99AKACYeBjFXJ3w3AAAFACOGlv95";
+const translatorEndpoint = "https://api.cognitive.microsofttranslator.com/";
+const translatorKey = "Bd8vmBZbiVlUabwaB2Ri7nZY1uM341RFauuKzCCZ65UYYPEoRSfgJQQJ99AKACYeBjFXJ3w3AAAbACOGhgXH";
 
     // 处理拖拽上传
     uploadArea.addEventListener('dragover', (e) => {
